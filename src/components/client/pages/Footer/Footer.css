@@ -1,0 +1,17 @@
+
+
+footer{
+    text-align: center;
+    background: #323232;
+    color: #fff;
+    padding: 30px;
+}
+i{
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+}
+
+i:hover{
+    color: #11b494;
+}
