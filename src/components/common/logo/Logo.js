@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from './logo.module.css'
+import './Logo.css'
 
-const Logo = ({design}) => {
-    return <NavLink style={design} className={styles.logoText} to="/">Daily<span>Blog</span></NavLink>
+const Logo = () => {
+    return <NavLink  className="logoText" to="/">Daily<span>Blog</span></NavLink>
     
 
 };

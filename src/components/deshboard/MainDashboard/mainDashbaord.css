@@ -87,13 +87,15 @@ i{
   border-radius: 5px;
   margin: 20px;
   margin-bottom: 10px;
+  box-shadow: rgba(139, 139, 139, 0.144) 0px 2px 8px 0px;
 }
 
 .col:hover{
   transition: .3s;
   background-color: #11b494;
   color: #fff;
-  cursor: pointer;
+  cursor: pointer;  
+  box-shadow: rgba(139, 139, 139, 0.144) 0px 2px 8px 0px;
 }
 
 i:hover{

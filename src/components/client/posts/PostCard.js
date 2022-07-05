@@ -5,7 +5,7 @@ const PostCard = ({ item }) => {
     return (
         <div className="postCardContainer">
             <img className="postImage" src={image} alt="" />
-            <h4>{title}</h4>
+            <h4>{title} <span>Read More</span></h4>
             <div className="author">
                 <img src={require('../../../assets/avatar.png')} alt="" />
                 <div className="authorDes">

@@ -58,3 +58,15 @@
   margin-bottom: 0;
   font-size: 13px;
 }
+@media only screen and (max-width: 768px) 
+{
+  .allPosts {
+    grid-template-columns: 1fr;
+  }
+  .sidePosts {
+    grid-template-columns: 1fr;
+  }
+  .SidebarPosts{
+    grid-template-columns:10px 250px;
+  }
+}

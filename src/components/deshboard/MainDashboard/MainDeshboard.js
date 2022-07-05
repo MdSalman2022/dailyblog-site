@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../common/logo/Logo';
 import './mainDashbaord.css'
 
+
 const MainDeshboard = () => {
 
     return (
@@ -12,6 +13,7 @@ const MainDeshboard = () => {
                     <p><i class="fa-solid fa-house"></i> Dashboard</p>
                     <br />
                     <h5>Management</h5>
+                    
                     <p><i class="fa-solid fa-users"></i> Users</p>
                     <p><i class="fa-solid fa-chart-pie"></i> Analytics</p>
                     <p><i class="fa-solid fa-list-check"></i> Manage Blog</p>
@@ -22,7 +24,7 @@ const MainDeshboard = () => {
                 </aside>
                 <main className="bodyContent">
                     <div className='header'>
-                        <div><i class="fa-solid fa-bars left"></i></div>
+                        <div><i class="fa-solid fa-bars"></i></div>
 
                         <div></div>
                         <div className='heading'><i class="fa-solid fa-bell"></i> <i class="fa-solid fa-gear"></i> <i class="fa-solid fa-language"></i> <i class="fa-solid fa-user-tie"></i> <small>Kate Bisop </small> </div>

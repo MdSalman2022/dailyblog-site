@@ -6,7 +6,7 @@ footer{
     color: #fff;
     padding: 30px;
 }
-i{
+footer i{
     padding: 5px;
     font-size: 30px;
     color: #fff;
@@ -15,3 +15,15 @@ i{
 i:hover{
     color: #11b494;
 }
+footer p:hover{
+    background-color: #323232;
+    color: #fff;
+}
+
+footer p{
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 300px;
+}
+

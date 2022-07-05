@@ -4,50 +4,71 @@
     justify-content: center;
     align-items: center;
     height:100vh;
-    /* color: #fff; */
-    background-color: #11b494;
+    color: #fff;
+    background-color: #fff;
 }
 
 
 .loginPageCard{
-    background: #fff;
-    height:400px;
-    width: 30%;
+    background: #11b494;
+    color: #fff;
+    height:500px;
+    width: 600px;
     border-radius:10px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.logoDiv{
-    text-align:center;
-}
-
+/* 
 .loginPageCard form{
     padding:0 30px;
-}
+} */
 
 .loginPageCard form div label{
     padding:10px 0px 5px 0;
-    color: #11b494;
+    color: #fff;
     font: size 16px;
     font-weight:500;
+    
 }
 .loginPageCard form div input{
-   width: 100%;
    border-radius: 5px;
-   border: 1px solid #11b494;
+   border: 1px solid #fff;
    padding: 5px;
-   /* outline: none; */
+   box-sizing: border-box;
+   width: 400px;
 }
 
 .toggleBox{
-    color: ##11b494;
+    color: #fff;
     position: absolute;
     bottom: 0;
-    left: 100px;
+    padding-top: 50px;
 
 }
 .toggleBox p span{
-    color: ##11b494;
+    color: #fff;
     text-align: center;
     cursor: pointer;
+}
+
+.toggleBox p:hover{
+    background-color: #11b494;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .loginPageCard{
+        width: 80%;
+        height: 50vh;
+    }
+    .loginPageCard form div input{
+        border-radius: 5px;
+        border: 1px solid #fff;
+        padding: 5px;
+        box-sizing: border-box;
+        width: 250px;
+     }
 }
