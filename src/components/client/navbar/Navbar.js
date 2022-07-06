@@ -7,18 +7,18 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <ReactNav collapseOnSelect expand="lg" bg="" variant="dark">
+        <ReactNav collapseOnSelect expand="lg" bg="light" variant="light">
             <Container>
                 <h1>Daily<span>Blog</span></h1>
-                <ReactNav.Toggle aria-controls="responsive-navbar-nav" />
-                <ReactNav.Collapse id="responsive-navbar-nav">
-                    <Nav className="m-auto">
+                <ReactNav.Toggle className='navtoggle' aria-controls="responsive-navbar-nav" />
+                <ReactNav.Collapse className='navtoggle'  id="responsive-navbar-nav">
+                    <Nav className="m-auto nav">
                         <NavLink className="defaultNav" to="/">Home</NavLink>
                         <NavLink className="defaultNav" to="/ff">Blog</NavLink>
                         <NavLink className="defaultNav" to="/fff">About</NavLink>
                         <NavLink className="defaultNav" to="/ffff">Contact</NavLink>
                     </Nav>
-                    <Nav>
+                    <Nav className='auth'>
                     <NavLink className="loginHeader" to="/login">Login</NavLink>
                     <NavLink className="headerSubscribe" to="/">Subscribe</NavLink>
 

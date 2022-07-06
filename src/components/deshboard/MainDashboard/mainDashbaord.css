@@ -160,3 +160,76 @@ aside .toggleBox {
   text-decoration: none;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .col{
+    background-color: #ffffffb7;
+    padding: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: rgba(139, 139, 139, 0.144) 0px 2px 8px 0px;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+    
+  .dashboardBody {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    color: #fff;
+    height: 100vh;
+    background: #f0f5f9;
+  }
+  .bodyContent {
+    color: #000;
+    display: grid;
+    grid-template-rows:5% 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .header{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: right;
+    box-sizing: border-box;
+    z-index: 11111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+
+  .content{
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top:500px;
+    background-color: #f0f5f9;
+    z-index: 1111;
+    position: absolute;
+    justify-content: left;
+    align-items: center;
+  }
+  aside {
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: #06ac8b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #11b494;
+    z-index: 111;
+  }
+}

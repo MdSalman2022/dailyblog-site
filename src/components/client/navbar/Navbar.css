@@ -1,3 +1,4 @@
+
 .defaultNav{
     color:#000;
     text-decoration: none;
@@ -41,3 +42,48 @@ h1{
 h1 span{
     color: #11b494!important;
 }
+
+.nav:hover,.auth:hover{
+    color: #11b494!important;
+}
+
+button span{
+    color: #11b494;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .defaultNav{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 5px;
+    } 
+    
+    .active{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .loginHeader{
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+    
+    .headerSubscribe{
+        font-size:14px;
+        font-weight:700;
+        background-color: #11b494;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 20px; 
+        border-radius: 20px;
+        width: 50%;
+    }
+        
+    h1{
+        font-size: 20px;
+    }
+   
+}
+    

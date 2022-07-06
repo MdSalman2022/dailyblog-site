@@ -27,3 +27,30 @@ footer p{
     grid-gap: 300px;
 }
 
+@media screen and (max-width: 600px){
+    footer p{
+        grid-template-columns: 1fr;        
+        display: inline;
+    }
+
+    footer{
+        padding: 30px;
+        font-size: 14px;
+        height: 20vh;
+    }
+    footer i{
+        padding: 25px;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    footer i:hover{
+        color: #11b494;
+    }
+    footer p:hover{
+        background-color: #323232;
+        color: #fff;
+    }    
+
+}
+    
