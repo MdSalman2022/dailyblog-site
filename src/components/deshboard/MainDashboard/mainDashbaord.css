@@ -232,4 +232,7 @@ aside .toggleBox {
     border: 1px solid #11b494;
     z-index: 111;
   }
+  .dashboard1,.dashboard2{
+    margin-top: 70px;
+  }
 }
